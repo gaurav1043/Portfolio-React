@@ -1,6 +1,10 @@
+section #about {
+  margin-top: 7rem;
+}
 .about__container {
+  margin-top: 7rem;
   display: grid;
-  grid-template-columns: 30% 50%;
+  grid-template-columns: 20% 50%;
   gap: 20%;
 }
 .about__me {
@@ -22,3 +26,36 @@
 /* .about__me-image:hover {
   transform: rotate(0deg);
 } */
+
+.about__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.about__card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about__card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+.about__card h5 {
+  font-size: 0.95rem;
+}
+
+.about__card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
