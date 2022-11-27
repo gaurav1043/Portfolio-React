@@ -17,12 +17,7 @@
     rgba(76, 72, 158, 1) 73%,
     rgba(255, 102, 196, 1) 100%
   );
-  --color-bg: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(76, 72, 158, 1) 73%,
-    rgba(255, 102, 196, 1) 100%
-  );
+  --color-bg: rgb(52, 49, 105) 73%;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
